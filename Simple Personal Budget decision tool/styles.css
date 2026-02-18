@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content:center;
+    margin-top:55px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    width:500px;
+    height:450px;
+    background-color:lightgrey;
+    border-radius: 20px;
+}
+.input{
+    width:200px;
+    height:30px;
+    border-radius:25px;
+}
+.input:hover {
+    
+    transform: translatey(-5px);
+    transition:0.3s ease;
+}
+
+
+#btn{
+    width:90px;
+    height:30px;
+    border-radius:25px;
+    
+}
+#btn:hover{
+    background-color:gray;
+    color:white;
+    transition:0.3s ease;
+    transform:scale(0.9);
+}
