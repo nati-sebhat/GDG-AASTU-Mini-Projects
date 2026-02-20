@@ -49,6 +49,14 @@ nav ul{
    padding-top:40px;
    color:#8fb996;
 }
+.container a{
+    text-decoration:none;
+    color:darkgreen;
+}
+.container a:hover{
+    color:green;
+    transition:0.3s ease;
+}
 #img{
     width:400px;
     height:400px;
